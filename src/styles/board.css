@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.whiteboard {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #008080;
+}
+
+.colors {
+    position: fixed;
+}
+
+.color {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+
+.color.black{background-color: black;}
+.color.red{background-color: red;}
+.color.blue{background-color: blue;}
+.color.green{background-color: green;}
+.color.yellow{background-color: yellow;}
+.color.teal{
+    background-color: teal;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.sizes{
+    position: fixed;
+    right: 0px;
+}
+.size{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+.size.bsize{
+    background-color: teal;
+    border: 3px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
